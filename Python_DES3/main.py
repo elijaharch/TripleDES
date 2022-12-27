@@ -7,7 +7,7 @@ from hashlib import md5
 
 # For selecting operation from given choice
 while True:
-    print('Choose operation to be done:\n\t1- Encryption\n\t2- Decryption')
+    print('Выберите:\n\t1- Encryption\n\t2- Decryption')
     operation = input('Your Choice: ')
     if operation not in ['1', '2']:
         break
