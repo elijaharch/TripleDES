@@ -25,7 +25,7 @@ def decrypt(ciphertext, key):
     return s.decode('utf-8')
 
 
-key = ''.join(random.choice(string.ascii_uppercase + string.ascii_lowercase + string.digits) for _ in range(16))
+key = ''.join(random.choice(string.ascii_uppercase + string.ascii_lowercase + string.digits) for _ in range(24))
 print(f'Ключ: {key}')
 while True:
     print('Выберите:\n\t1 - Зашифровать\n\t2 - Расшифровать\n\t'
